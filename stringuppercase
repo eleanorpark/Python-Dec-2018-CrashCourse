@@ -1,0 +1,15 @@
+# get string from user and print in uppercase
+
+class string:
+    s=''
+
+    def _init_(self,s):
+        self.s=''
+        
+s1='jyoti' 
+s=s1.upper()     
+print(s)
+
+s2='capital' 
+s=s2.upper()     
+print(s)
