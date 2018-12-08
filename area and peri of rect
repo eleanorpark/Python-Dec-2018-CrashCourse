@@ -1,0 +1,29 @@
+# class rectangle 
+# compute its area
+
+class rectangle:
+    l=0.0
+    b=0.0
+    #l*b=0.0
+
+    def _init_(self):
+        self.l=0.0
+        self.b=0.0
+        
+    def inputl(self,l):
+        print("l:{}".format(self.l))
+
+    def inputb(self,b):
+        print("b:{}".format(self.b))
+
+    def areaofrectangle(self,l,b):
+        areaofrectangle=l*b
+        A=areaofrectangle
+        print(A)
+
+
+l=2
+b=3
+areaofrectangle=l*b
+A=areaofrectangle
+print(A)
